@@ -1,0 +1,160 @@
+/* global  selection  */
+body{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;  
+font-size: 16px;                     
+}
+.container{
+  width: 90%;
+margin: auto;
+
+}
+
+/* Nav ber /header  */
+.nav-main{
+
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 39px 0;
+
+
+
+align-items: center;
+}
+
+
+
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    padding-left: 0px 0px 0px 27px;
+    padding: 0px 0px 0px 27px;
+}
+nav ul a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3b506c;
+}
+header{
+  box-shadow: rgb(33 35 38 / 26%) 0px 14px 14px -10px;
+}
+/* banner section */
+.banner{
+  text-align:center;
+  padding: 76px  0px 0 0;
+}
+.banner h1 {
+
+font-size: 70px;
+
+color: #3b506c;
+
+margin: 0;
+
+padding-bottom: 25px;
+}
+.banner span{
+  color: #0c66ff;;
+}
+
+
+
+.banner p{
+  font-size: 19px;
+    color: #3b506c;
+}
+.banner img{
+  
+padding: 58px 0px 0px 0px;
+width: 41%;
+margin: auto;
+}
+/* complet project profile */
+.complet-project{
+display: flex;
+margin: 50px 0 0 0;
+}
+.complet-project-1{
+  width: 50%;
+  padding: 0px 56px 0 0;
+}
+.complet-project-1 h2{
+
+color: red;
+
+font-size: 40px;
+
+text-align: right;
+}
+
+.complet-project-2 h2{
+
+font-size: 40px;
+
+color: #3b506c;
+}
+.complet-project-1 p{
+  text-align: right;
+  font-size: 20px;
+  margin: 0;
+}
+/* card section */
+
+.main-card{
+  display: flex;
+  padding: ;
+  margin: 31px 0px 43px 0px;
+}
+.card-1{
+  background: rgba(255, 0, 0, 0.103);
+  padding: 25px;
+}
+.card-2{
+  background: rgba(0, 128, 0, 0.116);;
+  padding: 25px;
+}
+.card-3{
+  background:rgba(255, 255, 0, 0.144);;
+  padding: 25px;
+}
+
+
+
+/* footer section */
+
+.footer{
+  
+padding: 50px 0px 135px 0px;
+  
+background-color: rgb(238 238 238);
+}
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+}
+  .footer-section li{
+list-style: none;
+
+  }
+  .footer-section ul{
+    padding: 0;
+    margin: 0;
+  }
+  .footer-section ul a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #3b506c;
+  }
+  .footer-section h5{
+    color: #3b506c;
+    font-size: 18px;
+  }
